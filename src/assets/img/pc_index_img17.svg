@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+<defs>
+<style>.cls-1{isolation:isolate;fill:url(#id_8);}</style>
+<linearGradient id="id_8" x1="16" y1="32" x2="16" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#c3b4bd"/><stop offset="1" stop-color="#fdfdfd"/></linearGradient></defs>
+<g id="layer_2"><g id="layer_1-2">
+<path class="cls-1" d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0Zm9.84,8.5L24.27,10a.47.47,0,0,0-.18.44v11.1a.47.47,0,0,0,.18.44L25.8,23.5v.33H18.09V23.5L19.68,22c.15-.15.15-.2.15-.44v-9L15.41,23.8h-.6L9.67,12.55v7.54A1,1,0,0,0,10,21L12,23.46v.33H6.16v-.32L8.23,21a1,1,0,0,0,.26-.86V11.37a.77.77,0,0,0-.25-.65L6.41,8.5V8.17h5.7l4.41,9.7,3.88-9.7h5.44Z"/></g></g></svg>
