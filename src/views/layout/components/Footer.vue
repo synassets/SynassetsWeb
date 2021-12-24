@@ -22,8 +22,8 @@
           <div   @click="goLink('https://doc.synassets.finance/')"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Documentation</div>
           <div @click="goLink('https://github.com/synassets')"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Github</div>
           <div @click="tip"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Audit Report</div>
-          <div @click="goLink('https://www.synassets.finance/Logo_Lockups.zip')"   style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Logo Lockups</div>
-          <div @click="goLink('https://www.synassets.finance/Image_Assets.zip')"   style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Image Assets</div>
+          <div @click="goLink('https://github.com/synassets/Synassets-frontend/tree/main/source')"   style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Logo Lockups</div>
+          <div @click="goLink('https://github.com/synassets/Synassets-frontend/tree/main/source')"   style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Image Assets</div>
         </div>
         <div style="margin-left: 85px;" >
           <div style=" font-size: 18px;font-family: Selawik;font-weight: bold;color: #FFFFFF;margin-top: 75px;">Community</div>
