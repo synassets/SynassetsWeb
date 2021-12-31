@@ -30,7 +30,7 @@
           <div style="display: flex;margin-top: 30px;">
             <img :src="pc_twitter" style="height:32px;width: 32px;cursor: pointer"  @click="goLink('https://twitter.com/SynAssets')" />
             <img :src="pc_github" style="height:32px;width: 32px;margin-left: 25px;cursor: pointer"  @click="goLink('https://github.com/synassets')" />
-            <img :src="pc_discord" style="height:32px;width: 32px;margin-left: 25px;cursor: pointer"  @click="goLink('https://discord.gg/EJdByByc')" />
+            <img :src="pc_discord" style="height:32px;width: 32px;margin-left: 25px;cursor: pointer"  @click="goLink('https://discord.gg/BzVUJJszaU')" />
             <img :src="pc_medium" style="height:32px;width: 32px;margin-left: 25px;cursor: pointer"  @click="goLink('https://medium.com/@SynAssets')" />
           </div>
 

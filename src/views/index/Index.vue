@@ -13,13 +13,13 @@
           </div>
         </div>
 
-        <div style="width: 100%;text-align: center;font-size: 60px;font-family: Noto Serif;font-weight: bold;color: #FFFFFF;margin-top: 190px;">Crypto Consensus Network</div>
-        <div style="width: 100%;text-align: center;font-size: 16px;font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 15px;">Stake, IDO and Bond to earn treasury on the most popular decentralized consensus platform</div>
+        <div class="div-text1" >Crypto Consensus Network</div>
+        <div class="div-text2"  >Stake, IDO and Bond to earn treasury on the most popular decentralized consensus platform</div>
 
         <div style="width: 459px;margin: 0 auto;display: flex;margin-top: 27px;">
           <img :src="pc_index_img3"  style="width: 32px;height: 32px;cursor: pointer" @click="goLink('https://twitter.com/SynAssets')" alt />
           <img :src="pc_index_img4"  style="width: 32px;height: 32px;cursor: pointer;margin-left: 27px;" @click="goLink('https://github.com/synassets')"  alt />
-          <img :src="pc_index_img5"  style="width: 32px;height: 32px;cursor: pointer;margin-left: 27px;" @click="goLink('https://discord.gg/EJdByByc')"  alt />
+          <img :src="pc_index_img5"  style="width: 32px;height: 32px;cursor: pointer;margin-left: 27px;" @click="goLink('https://discord.gg/BzVUJJszaU')"  alt />
           <img :src="pc_index_img17"  style="width: 32px;height: 32px;cursor: pointer;margin-left: 27px;" @click="goLink('https://medium.com/@SynAssets')"  alt />
 
           <div class="pc-index-div-btn3"  @click="tip">Launch App</div>
@@ -43,8 +43,8 @@
       <!----div 3---->
       <div style="max-width: 1200px;margin: 0 auto;display: flex;font-size: 36px;font-family: Segoe UI;font-weight: 900;color: #FFFFFF;">
            <div>
-             <div style="font-size: 40px;font-family: Noto Serif;font-weight: 400; color: #FFFFFF;margin-top: 168px;">Fair Financial Game</div>
-             <div style="max-width: 620px;font-size: 16px;font-family: Selawik;font-weight: 400; color: #FFFFFF;margin-top: 50px;line-height: 2;">
+             <div class="div-text3" >Fair Financial Game</div>
+             <div class="div-text4"  >
                We hope to contrust a stronger (5, 5) consensus network based on Polygon chain. All consensus-builder of SynAssets ecosystem will gain the wealth growth.
              </div>
              <div class="pc-index-div-btn4"  @click="goLink('https://doc.synassets.finance/')" >
@@ -254,6 +254,41 @@ export default {
 
 <style lang="scss" scoped>
 
+@keyframes fade-in {
+  0% {opacity: 0;}
+  40% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-webkit-keyframes fade-in {
+  0% {opacity: 0;}
+  40% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.div-text1{
+  width: 100%;text-align: center;font-size: 60px;font-family: Noto Serif;font-weight: bold;color: #FFFFFF;margin-top: 190px;
+  animation: fade-in;
+  animation-duration: 1.5s;
+  -webkit-animation:fade-in 1.5s;
+}
+.div-text2{
+  width: 100%;text-align: center;font-size: 16px;font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 15px;
+  animation: fade-in;
+  animation-duration: 1.5s;
+  -webkit-animation:fade-in 1.5s;
+}
+.div-text3{
+  font-size: 40px;font-family: Noto Serif;font-weight: 400; color: #FFFFFF;margin-top: 168px;
+  animation: fade-in;
+  animation-duration: 1.5s;
+  -webkit-animation:fade-in 1.5s;
+}
+.div-text4{
+  max-width: 620px;font-size: 16px;font-family: Selawik;font-weight: 400; color: #FFFFFF;margin-top: 50px;line-height: 2;
+  animation: fade-in;
+  animation-duration: 1.5s;
+  -webkit-animation:fade-in 1.5s;
+}
 .pc-index-div-bg1{
   max-width: 1920px;
   min-height: 820px;
