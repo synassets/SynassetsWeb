@@ -1,24 +1,14 @@
 <template>
   <div class="layout">
-
-    <router-view
-      ref="mainPage"
-      class="content_body"
-
-    />
- <Footer class="footer"  />
-
-
+    <router-view ref="mainPage" class="content_body" />
+    <Footer class="footer" v-show="!isMobile" />
   </div>
 </template>
 
 <script>
 import Footer from "@/views/layout/components/Footer";
 
-
-
-import {mapState} from "vuex";
-
+import { mapState } from "vuex";
 
 export default {
   name: "layout",
@@ -26,26 +16,19 @@ export default {
     Footer
   },
   data() {
-    return {
-
-
-    };
+    return {};
   },
   computed: {
     ...mapState({
-      isMobile: state => state.sys.isMobile,
-
+      isMobile: state => state.sys.isMobile
     })
   },
-  methods: {
-
-  }
+  methods: {}
 };
 </script>
 
 <style lang="scss" scoped>
 .layout {
-
   width: 100%;
   background: #ffffff;
   //    background-size: cover;

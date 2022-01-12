@@ -22,5 +22,10 @@ export const pc_github = require("@/assets/img/pc_github.svg");
 export const pc_twitter = require("@/assets/img/pc_twitter.svg");
 export const pc_medium = require("@/assets/img/pc_medium.svg");
 
+export const h5_logo = require("@/assets/img/h5_logo.png");
+export const h5_bg = require("@/assets/img/h5_bg.png");
+export const h5_circle1 = require("@/assets/img/h5_circle1.png");
 
-
+export const h5_d = require("@/assets/img/h5_d.png");
+export const h5_g = require("@/assets/img/h5_g.png");
+export const h5_t = require("@/assets/img/h5_t.png");
