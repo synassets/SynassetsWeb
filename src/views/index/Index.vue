@@ -582,19 +582,23 @@
        <div style="font-size: 0.4rem;font-family: Selawik;font-weight: bold;color: #0D0D0D;padding-left:0.68rem;margin-top:1rem;">Resources</div>
        <div style="display:flex;margin-left:0.65rem;margin-top:0.5rem;">
            <div style="width: 0.1rem;height:0.1rem;border-radius:0.1rem;background: #000000;margin-top:0.25rem;"></div>
-           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"  @click="tip">Documentation</div>
+           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"   @click="goLink('https://doc.synassets.finance/')" >Documentation</div>
        </div>
        <div style="display:flex;margin-left:0.65rem;margin-top:0.5rem;">
            <div style="width: 0.1rem;height:0.1rem;border-radius:0.1rem;background: #000000;margin-top:0.25rem;"></div>
-           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"  @click="tip">Github</div>
+           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"  @click="goLink('https://github.com/synassets')" >Github</div>
        </div>
+      <div style="display:flex;margin-left:0.65rem;margin-top:0.5rem;">
+        <div style="width: 0.1rem;height:0.1rem;border-radius:0.1rem;background: #000000;margin-top:0.25rem;"></div>
+        <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"   @click="goLink('https://github.com/synassets/SynassetsWeb/blob/main/source/SynAssets_SG_2021.pdf')" >whitepaper</div>
+      </div>
        <div style="display:flex;margin-left:0.65rem;margin-top:0.5rem;">
            <div style="width: 0.1rem;height:0.1rem;border-radius:0.1rem;background: #000000;margin-top:0.25rem;"></div>
            <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"  @click="tip">Audit Report</div>
        </div>
        <div style="display:flex;margin-left:0.65rem;margin-top:0.5rem;">
            <div style="width: 0.1rem;height:0.1rem;border-radius:0.1rem;background: #000000;margin-top:0.25rem;"></div>
-           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"  @click="tip">Logo Lockups</div>
+           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"   @click="goLink('https://github.com/synassets/Synassets-frontend/tree/main/source')" >Logo Lockups</div>
        </div>
 
 
