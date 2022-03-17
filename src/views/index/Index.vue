@@ -12,7 +12,7 @@
                 style="width: 50px;height: 50px;margin-top: 15px;cursor: pointer"
                 alt
               />
-              <div class="pc-index-div-btn2" @click="tip">Audit Report</div>
+              <div class="pc-index-div-btn2"   @click="goLink('https://github.com/solidproof/projects/blob/main/Consensus/SmartContract_Audit_Solidproof_Consensus.pdf')" >Audit Report</div>
 
               <div class="pc-index-div-btn1" @click="launchApp()">Launch App</div>
             </div>
@@ -594,7 +594,7 @@
       </div>
        <div style="display:flex;margin-left:0.65rem;margin-top:0.5rem;">
            <div style="width: 0.1rem;height:0.1rem;border-radius:0.1rem;background: #000000;margin-top:0.25rem;"></div>
-           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"  @click="tip">Audit Report</div>
+           <div style="font-size: 0.4rem;font-family: Selawik;font-weight: 400;color: #00A0E9;margin-left:0.4rem; cursor: pointer;"   @click="goLink('https://github.com/solidproof/projects/blob/main/Consensus/SmartContract_Audit_Solidproof_Consensus.pdf')" >Audit Report</div>
        </div>
        <div style="display:flex;margin-left:0.65rem;margin-top:0.5rem;">
            <div style="width: 0.1rem;height:0.1rem;border-radius:0.1rem;background: #000000;margin-top:0.25rem;"></div>
