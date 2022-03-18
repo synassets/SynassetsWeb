@@ -22,7 +22,7 @@
           <div   @click="goLink('https://doc.synassets.finance/')"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Documentation</div>
           <div @click="goLink('https://github.com/synassets')"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Github</div>
           <div @click="goLink('https://github.com/synassets/SynassetsWeb/blob/main/source/SynAssets_SG_2021.pdf')"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Pitch Deck</div>
-          <div @click="tip"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Audit Report</div>
+          <div @click="goLink('https://github.com/solidproof/projects/blob/main/Consensus/SmartContract_Audit_Solidproof_Consensus.pdf')"  style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Audit Report</div>
           <div @click="goLink('https://github.com/synassets/Synassets-frontend/tree/main/source')"   style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Logo Lockups</div>
           <div @click="goLink('https://github.com/synassets/Synassets-frontend/tree/main/source')"   style="font-size: 16px; font-family: Selawik;font-weight: 400;color: #FFFFFF;margin-top: 30px;cursor: pointer;">Image Assets</div>
         </div>
